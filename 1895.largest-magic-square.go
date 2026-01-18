@@ -1,3 +1,8 @@
+// @leet imports start
+package leetcode
+
+// @leet imports end
+
 // @leet start
 func largestMagicSquare(grid [][]int) int {
 	exist := make([][][4]int, len(grid)+1)
